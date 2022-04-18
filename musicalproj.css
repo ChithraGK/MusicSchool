@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cinzel:wght@500&family=Great+Vibes&display=swap');
+.nav-item a{
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+ .nav-item a:hover{
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px darkgoldenrod;
+}
+.nav-item1 a:hover{
+    box-shadow: 5px 5px 5px aliceblue;
+  }
+
+.sav{
+margin-top: -1em;
+margin-left: -3em;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: darkgoldenrod;
+    box-shadow: 5px 5px 5px darkgoldenrod;
+}
+#pri{
+    box-shadow: 8px 8px 8px darkgoldenrod;
+}
+
+.carousel .item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+.r3{
+    
+    margin-top: 1em;
+
+}
+.r5{
+    margin-top: 4em;
+}
+.r4{
+    margin-top: 4em;
+}
+.hh{
+    position: absolute;
+    margin-top: -3em;
+    
+}
+.xt{
+    color: aliceblue;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    margin-top: -2.6em;
+    
+}
+
+@media screen and (max-width: 800px)
+{
+.nmm{
+    margin-left: 2.5em;
+}
+.socicons{
+    margin-left: 1.5em;
+}
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-indicators{
+    margin-top: 4.2em;
+}
+#carou{
+    background-position: -1.2em;
+}
+#carouu{
+    background-position: -1.2em;
+}
+#carouuu{
+    background-position: -1.2em;
+}
+.sav{
+    margin-left: -2.6em;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ width: 22em;
+ height: 14em;
+ margin-top: 1em;
+}
+.xt{
+    margin-top: -2.7em;
+}
+}
+
+#fac{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px 8px blue;
+}
+
+.at{
+    margin-top: 1em;
+}
+.r7{
+    background-color: burlywood;
+}
+
+.circleexp2{
+    margin-top: 6em;
+}
+.crl{
+    background-color: darkgoldenrod;
+}
+.crl:hover{
+    /* background-color: rgb(189, 165, 136); */
+    box-shadow: 8px 8px 8px black;
+}
+#carou{
+border-radius: 50%;
+background-image: url(./images/mj.jpg);
+background-size: 8em 8em;
+background-repeat: no-repeat;
+}
+#carouu{
+    border-radius: 50%;
+    background-image: url(./images/SingerSithara_10112020_1200_FB.jpg);
+    background-size: 8em 8em;
+    background-repeat: no-repeat;
+    }
+    #carouuu{
+        border-radius: 50%;
+        background-image: url(./images/madhu.jpg);
+        background-size: 8em 8em;
+        background-repeat: no-repeat;
+        }
+.carousel-indicators{
+    position: absolute;
+    top: 20em;
+    }
+    
+
+.carousel-indicators_1{
+    display: none;    
+}
+#fac{
+    position: relative;
+    border-radius: 40em; 
+    transition: all 0.9s ease;
+}
+#fac:hover{
+   opacity: 0.5;
+}
+#pri:hover{
+    opacity: 0.4;
+}
+.pgm:hover .xt{
+color: black;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.vd{
+     margin-top: 0.2em;
+}
+.ss{
+    margin-top: 0.5em;
+}
+.staff{
+    position: relative;
+    overflow: hidden;
+}
+.socicons
+{
+    position: absolute;
+transform: translateY(100px);
+transition:transform .8s ease;
+top: 15em;
+left: 3em;
+}
+.staff:hover .socicons{
+    transform:translate(80px);
+    
+}
+.socicons i{
+    transform: scale(0.01);
+}
+.staff:hover .socicons i{
+   
+   color: blue;
+   transform: scale(2)
+    
+}
+.nmm{
+    position: absolute;
+    transform: translateY(100px);
+    transition:transform .8s ease;
+    top: 10em;
+    left: -1.5em;  
+    transform: scale(0.01);
+}
+.staff:hover .nmm{
+    transform:translate(80px);  
+    color: blue;
+}
+.buyicon{
+    position: absolute;
+    transform: translateY(100px);
+    transition:transform .8s ease;
+    top: 12em;
+    left: 2em;  
+    transform: scale(0.01);
+}
+.card:hover .buyicon{
+    transform:translate(80px);  
+    transform: scale(4);
+    color: darkgoldenrod;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px darkgoldenrod;
+}
+.r8{
+    margin-top: 19em;
+}
+.n{
+    color: darkgoldenrod;
+    text-align: center;
+}
+.tit{
+    
+    margin-left: -2.3em;
+    font-family: 'Beau Rivage', cursive;
+    color: darkgoldenrod;
+}
+.tit:hover{
+    color: aliceblue;
+    box-shadow: 5px 5px 5px darkgoldenrod;
+}
+.cll:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(211, 193, 171);
+}
+.card{
+text-align: center;
+font-family: 'Cinzel', serif;
+font-weight: bolder;
+border: 2px solid darkgoldenrod;
+border-radius: 25em;
+background-color: burlywood;
+}
+.bbtn{
+    position: absolute;
+    margin-top: 2em;
+    width: 8em;
+    height: 4.5em;
+    margin-left: -3em;
+}
+.card-body{
+    margin-top: -2em;
+}
